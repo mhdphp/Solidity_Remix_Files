@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deployA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "deployedA",
+				"outputs": [
+					{
+						"internalType": "contract A",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ownerCreator",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contracDeployContr.sol": "Creator"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contracDeployContr.sol": {
+			"keccak256": "0xa37637e427b8cb0bce7d47bd34559b4ea0eab88be8ed458d03c75cf128e3912b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://10fd95097bc0dcb290031973fe5699b4c2fe048c49cc89378faa04653e4e779b",
+				"dweb:/ipfs/QmTMcerXT6GsmdqmVDVJpcZwwQ6q8NyjkdUEAxmmKHh13Z"
+			]
+		}
+	},
+	"version": 1
+}
